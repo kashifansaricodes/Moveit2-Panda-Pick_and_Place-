@@ -1,16 +1,15 @@
-﻿Commands to run the code:
+Note: Please add follwoing repositories 'include/package_kansari' before running the program, eg: <src/package_kansari/include/package_kansari> 
+
+
+#﻿Commands to run the code:
 
 
 To launch robot in RViz: 
 
-
 ros2 launch panda_kashif demo.launch.py
 
 
-
-
 To run the pick and place command:
-
 
 ros2 run package_kansari pick_and_place
 
